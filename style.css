@@ -1,0 +1,44 @@
+::selection{
+    background: #03a9f4;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Embed code';
+}
+body{
+    background-color: #03a9f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background-color: #fff;
+    width: max-content;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container :where(textarea, button){
+    padding: 10px 15px;
+    width: 100%;
+    margin: 5px 0;
+    outline: 0;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+.container textarea{
+    padding: 30px 10px;
+}
+.container button{
+    background-color: #b3e5fc;
+    border: 0;
+    padding: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
